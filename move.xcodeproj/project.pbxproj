@@ -13,6 +13,7 @@
 		6893B9181BF58CA800E0CE29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6893B9161BF58CA800E0CE29 /* Main.storyboard */; };
 		6893B91A1BF58CA800E0CE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6893B9191BF58CA800E0CE29 /* Assets.xcassets */; };
 		6893B91D1BF58CA800E0CE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6893B91B1BF58CA800E0CE29 /* LaunchScreen.storyboard */; };
+		6893B9261BF58E2E00E0CE29 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6893B9251BF58E2E00E0CE29 /* YellowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6893B9191BF58CA800E0CE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6893B91C1BF58CA800E0CE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6893B91E1BF58CA800E0CE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6893B9241BF58E2E00E0CE29 /* YellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		6893B9251BF58E2E00E0CE29 /* YellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				6893B9111BF58CA800E0CE29 /* AppDelegate.m */,
 				6893B9131BF58CA800E0CE29 /* ViewController.h */,
 				6893B9141BF58CA800E0CE29 /* ViewController.m */,
+				6893B9241BF58E2E00E0CE29 /* YellowView.h */,
+				6893B9251BF58E2E00E0CE29 /* YellowView.m */,
 				6893B9161BF58CA800E0CE29 /* Main.storyboard */,
 				6893B9191BF58CA800E0CE29 /* Assets.xcassets */,
 				6893B91B1BF58CA800E0CE29 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				6893B9151BF58CA800E0CE29 /* ViewController.m in Sources */,
 				6893B9121BF58CA800E0CE29 /* AppDelegate.m in Sources */,
+				6893B9261BF58E2E00E0CE29 /* YellowView.m in Sources */,
 				6893B90F1BF58CA800E0CE29 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
