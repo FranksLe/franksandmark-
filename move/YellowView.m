@@ -34,6 +34,7 @@
     self.label2 = [[UILabel alloc] initWithFrame:CGRectMake(- 375, self.startPoint.y, 1000, 1)];
     self.label2.backgroundColor = [UIColor redColor];
     //
+    NSLog(@"daada");
     self.label3 = [[UILabel alloc] initWithFrame:CGRectMake(self.startPoint.x, -667, 1, 2000)];
     self.label3.backgroundColor = [UIColor redColor];
 }
